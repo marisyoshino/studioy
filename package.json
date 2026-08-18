@@ -1,14 +1,15 @@
 {
   "name": "studioy",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "node --check index.js",
+    "check": "node --check index.js",
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "check": "node --check src/index.js"
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
-    "wrangler": "^4.68.0"
+    "wrangler": "4.124.0"
   }
 }

@@ -1,19 +1,23 @@
-# Studio Y — Cloudflare Worker
+# Studio Y — Cases V2.1
 
-Preview dos cases atualizados do portfólio.
-
-## Worker
-Nome configurado: `studioy`
-
-## Rotas
-- `/` — seleção de cases
-- `/projetos/gondola-pro/` — case técnico SaaS
-- `/projetos/vellora/` — Product Design + Design System + IA
-- `/projetos/alg/` — Product Design + Design System
+Cloudflare Worker standalone. Todos os arquivos necessários ficam na raiz do repositório; não há dependência de `src/`, `site/` ou `projetos/` no Git.
 
 ## Cloudflare Builds
-- Build command: deixe vazio
-- Deploy command: `npx wrangler deploy`
 
-## Observação
-O Gondola Pro ainda pode exibir `Estoque Pro` dentro do produto porque a troca de marca ainda não foi aplicada ao código do sistema. O case usa `Gondola Pro` como nome público.
+Build command:
+
+    npm run build
+
+Deploy command:
+
+    npx wrangler deploy
+
+## Estrutura esperada na raiz do GitHub
+
+- index.js
+- package.json
+- wrangler.jsonc
+- README.md
+- .gitignore
+
+O build apenas valida a sintaxe do Worker. As rotas e páginas de case são servidas diretamente por `index.js`.
