@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node build.mjs",
+    "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "dev": "npm run build && wrangler dev"
+    "check": "node --check src/index.js"
   },
   "devDependencies": {
-    "wrangler": "^4.124.0"
+    "wrangler": "^4.68.0"
   }
 }

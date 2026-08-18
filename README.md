@@ -1,19 +1,19 @@
 # Studio Y — Cloudflare Worker
 
-Pacote robusto para Git/Cloudflare: o site inteiro está em um único arquivo `site-bundle.tgz` na raiz. O `npm run build` recria automaticamente `dist/`, inclusive `projetos/` e todos os assets.
+Preview dos cases atualizados do portfólio.
 
-## Arquivos que precisam aparecer na raiz do repositório
+## Worker
+Nome configurado: `studioy`
 
-- `package.json`
-- `wrangler.jsonc`
-- `build.mjs`
-- `site-bundle.tgz`
-- `README.md`
-
-Não é necessário criar ou enviar manualmente a pasta `projetos/`.
+## Rotas
+- `/` — seleção de cases
+- `/projetos/gondola-pro/` — case técnico SaaS
+- `/projetos/vellora/` — Product Design + Design System + IA
+- `/projetos/alg/` — Product Design + Design System
 
 ## Cloudflare Builds
+- Build command: deixe vazio
+- Deploy command: `npx wrangler deploy`
 
-Build command: `npm run build`
-
-Deploy command: `npx wrangler deploy`
+## Observação
+O Gondola Pro ainda pode exibir `Estoque Pro` dentro do produto porque a troca de marca ainda não foi aplicada ao código do sistema. O case usa `Gondola Pro` como nome público.
