@@ -22,9 +22,9 @@ Deploy command:
 
 ## Atualização de conteúdo
 
-O `index.js` contém a versão publicada da home e do case Vellora. O arquivo
+O `index.js` contém a versão publicada da home e dos cases Vellora e Gôndola Pro. O arquivo
 `site-bundle.tgz` preserva o site-fonte completo, já sem o case ALG. O script
-`sync-content.mjs` sincroniza a home, o Vellora e seus assets no Worker quando
+`sync-content.mjs` sincroniza a home, os dois cases e seus assets no Worker quando
 for necessário gerar uma nova versão localmente.
 
 O build apenas valida a sintaxe do Worker. As rotas e páginas de case são servidas diretamente por `index.js`.

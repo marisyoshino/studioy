@@ -8,7 +8,7 @@ STUDIO Y — ARQUIVOS PARA ATUALIZAR NO GITHUB
    - build.mjs
    - README.md
    - sync-content.mjs
-4. Em Commit changes, use: Atualiza case Vellora e remove ALG
+4. Em Commit changes, use: Corrige navegação, cases e thumbnails
 5. Confirme o commit na branch main.
 
 O Cloudflare deve iniciar um novo deploy automaticamente. Em Deployments,
