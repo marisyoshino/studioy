@@ -1,0 +1,18 @@
+STUDIO Y — ARQUIVOS PARA ATUALIZAR NO GITHUB
+
+1. Extraia este ZIP no seu computador.
+2. No repositório do GitHub, clique em Add file > Upload files.
+3. Envie estes arquivos para a raiz do repositório, substituindo os existentes:
+   - index.js
+   - site-bundle.tgz
+   - build.mjs
+   - README.md
+   - sync-content.mjs
+4. Em Commit changes, use: Atualiza case Vellora e remove ALG
+5. Confirme o commit na branch main.
+
+O Cloudflare deve iniciar um novo deploy automaticamente. Em Deployments,
+aguarde o status Success e depois faça uma atualização forçada no navegador
+(Ctrl+Shift+R no Windows ou Cmd+Shift+R no Mac).
+
+Não envie o arquivo ZIP ao GitHub. Envie os cinco arquivos extraídos.

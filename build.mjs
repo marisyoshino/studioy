@@ -78,7 +78,6 @@ const required = [
   'projetos/missao-cadete/index.html',
   'projetos/cronicas-do-veu/index.html',
   'projetos/gondola-pro/index.html',
-  'projetos/alg/index.html',
   'projetos/vellora/index.html'
 ];
 
